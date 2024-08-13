@@ -1,0 +1,135 @@
+
+body {
+    background-color: black;
+}
+
+.head ul li {
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+svg {
+    filter: invert(100%);
+}
+
+.head ul {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 55px;
+}
+
+.main span {
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    padding: 30px;
+    margin: 20px;
+}
+
+.main span {
+    font-size: xx-large;
+}
+
+.main p {
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.end h3 {
+    color: white;
+    display: flex;
+}
+
+.end {
+    display: flex;
+    margin-left: 200px;
+    padding: 10px;
+    font-size: larger;
+}
+.end img{
+    padding: 10px;
+
+}
+
+.end p {
+    color: white;
+    font-size: 19px;
+    padding: 5px;
+}
+
+.item-lan {
+    color: rgba(5, 6, 5, 0.879);
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    font-family:cursive;
+}
+
+.items {
+    text-align: center;
+    height: 220px;
+    width: 345px;
+    background: rgba(196, 189, 189, 0.659);
+    border-radius: 15px;
+}
+
+.main button:hover {
+    background-color: cadetblue;
+}
+
+.btn1 {
+    background-color: aqua;
+    cursor: pointer;
+    border: none;
+}
+
+.btn2 {
+    border: none;
+    background-color: green;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: rgb(163, 203, 205);
+}
+
+.btn2:hover {
+    background-color: rgb(113, 172, 113);
+}
+
+.grid {
+    display: grid;
+    gap:15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 90px;
+}
